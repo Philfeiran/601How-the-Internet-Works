@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: red;;
+  color: var(--purple);
   text-decoration: underline;
 }
 
@@ -582,6 +582,8 @@ pre code {
   margin-right: -1.5rem;
   margin-left: -1.5rem;
   margin-top: 40px;
+  color: rgb(26 131 188 / 96%);
+  font-size: larger;
 }
 
 .no-gutters {
