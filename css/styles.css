@@ -581,6 +581,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -1.5rem;
   margin-left: -1.5rem;
+  margin-top: 40px;
 }
 
 .no-gutters {
@@ -4009,6 +4010,7 @@ input[type=button].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  margin-left: 251px;
 }
 
 .navbar-toggler {
