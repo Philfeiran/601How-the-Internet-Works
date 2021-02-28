@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #1a79bce8;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: red;;
   text-decoration: underline;
 }
 
@@ -480,7 +480,7 @@ mark,
 }
 .links{
   font-size: 33px;
-  font: italic;
+  
 }
 .img-thumbnail {
   padding: 0.25rem;
