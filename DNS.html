@@ -26,30 +26,46 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="about.html">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="Dn&ICANN.html">ICANN</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="IPAddress.html">IP</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="DNS.html">DNS</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="HTTP.html">HTTP&HTTPS</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="CSS.html">W3C&HTML&CSS</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded " href="index.html">Home</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <img class="masthead-avatar mb-5" src="" alt="" />
+                <img class="masthead-avatar mb-5" src="img/DNS.png" alt="" />
                 <div class="divider-custom ">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+                <p class="masthead-subheading font-weight-light mb-0">
+                    Above pircure show how DNS works to match the names you were seeking
+                </p>
             </div>
         </header>
         <div class="row">
-            <div class="col-lg-4 ml-auto"><p class="lead"></p></div>
-            <div class="col-lg-4 mr-auto"><p class="lead"></p></div>
+            <div class="col-lg-4 ml-auto">
+                <a>-DNS</a>
+                <p class="lead">
+                    The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources 
+                    connected to the Internet or a private network. Generally, it is a phonebook of the Internet. Humans access information online 
+                    through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates
+                    domain names to IP addresses so browsers can load Internet resources.
+                </p></div>
+            <div class="col-lg-4 mr-auto">
+                <a>- Example</a>
+                <p class="lead">
+                    et's say that you type the URL www.howstuffworks.com into your browser. The browser contacts a DNS server to get the IP address. A DNS server would start its search for an IP address by contacting one of the root DNS servers. The root servers know the IP addresses for all of the DNS servers that handle the top-level domains (.COM, .NET, .ORG, etc.). Your DNS server would ask the root for www.howstuffworks.com, and the root would say, "I don't know the IP address for www.howstuffworks.com, but here's the IP address for the .COM DNS server."
+
+Your name server then sends a query to the .COM DNS server asking it if it knows the IP address for www.howstuffworks.com. The DNS server for the COM domain knows the IP addresses for the name servers handling the www.howstuffworks.com domain, so it returns those.
+
+Your name server then contacts the DNS server for www.howstuffworks.com and asks if it knows the IP address for www.howstuffworks.com. It actually does, so it returns the IP address to your DNS server, which returns it to the browser, which can then contact the server for www.howstuffworks.com to get a Web page.
+                </p></div>
         </div>
-        <div class="link text-center">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded " href="index.html">Back to Home -></a>
-        </div>
+
         </section>
         
         
